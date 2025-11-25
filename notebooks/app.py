@@ -7,6 +7,11 @@ penguins_data = pd.read_csv('../penguins.csv')
 # ----- Encabezado ----
 st.header('Información sobre especies de pingüinos')
 
+# ----- Mostrar tabla de datos -----
+st.subheader('Dataset')
+
+st.dataframe(penguins_data)
+
 # ----- Botón para mostrar un histograma-----
 boton_hist = st.button('Construir un histograma')
 
