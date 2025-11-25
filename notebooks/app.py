@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly_express as px
 
-penguins_data = pd.read_csv('penguins.csv')
+penguins_data = pd.read_csv('../penguins.csv')
 
 # ----- Encabezado ----
 st.header('Información sobre especies de pingüinos')
