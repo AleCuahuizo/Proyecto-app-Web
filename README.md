@@ -1,8 +1,8 @@
 # Proyecto-app-Web
 
-Aplicación web sobre pingüinos.
+Aplicación web sobre tres especies de pingüinos.
 
-Tenemos una base de datos 'penguins.csv' que muestra los siguientes campos:
+El conjunto de datos 'penguins.csv' muestra los siguientes campos:
 
 - id
 - species: tres tipos de especies de pingüinos (Adelia, Barbijo o Gentoo).
@@ -14,4 +14,4 @@ Tenemos una base de datos 'penguins.csv' que muestra los siguientes campos:
 - sex: Género del pingüino (macho o hembra)
 - year: Año de observación.
 
-Se creó un app para visualizar gráficos relevantes.
+Se creó un aplicación Web con Python, usando la librería Streamlit, esto con el propósito de aprender a usar las funciones de streamlit para la visualización de gráficos.
