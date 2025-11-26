@@ -5,11 +5,11 @@ import plotly_express as px
 
 
 # Cargamos los datos
-penguins_data = pd.read_csv('../penguins.csv')
+penguins_data = pd.read_csv('penguins.csv')
 
 # Encabezado
 st.title('Información sobre tres especies de pingüinos')
-st.image('../image.png', width=200)
+st.image('image.png', width=200)
 
 
 # Mostrar tabla de datos
